@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Memory</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	<div id="conteiner">
+		<div id="logo"><a href="index.html" id="memory" title="Memory game">MEMORY</a></div>
+		<div id="board">
+			<div id="leftBoard">
+				<div id="tiles">
+					<div class="tile" id="t0" onclick="check(0)"><img src="ot.png"></div>
+					<div class="tile" id="t1" onclick="check(1)"><img src="ot.png"></div>
+					<div class="tile" id="t2" onclick="check(2)"><img src="ot.png"></div>
+					<div class="tile" id="t3" onclick="check(3)"><img src="ot.png"></div>
+					<div style="clear: both;"></div>
+					<div class="tile" id="t4" onclick="check(4)"><img src="ot.png"></div>
+					<div class="tile" id="t5" onclick="check(5)"><img src="ot.png"></div>
+					<div class="tile" id="t6" onclick="check(6)"><img src="ot.png"></div>
+					<div class="tile" id="t7" onclick="check(7)"><img src="ot.png"></div>
+					<div style="clear: both;"></div>
+					<div class="tile" id="t8" onclick="check(8)"><img src="ot.png"></div>
+					<div class="tile" id="t9" onclick="check(9)"><img src="ot.png"></div>
+					<div class="tile" id="t10" onclick="check(10)"><img src="ot.png"></div>
+					<div class="tile" id="t11" onclick="check(11)"><img src="ot.png"></div>
+					<div style="clear: both;"></div>
+					<div class="tile" id="t12" onclick="check(12)"><img src="ot.png"></div>
+					<div class="tile" id="t13" onclick="check(13)"><img src="ot.png"></div>
+					<div class="tile" id="t14" onclick="check(14)"><img src="ot.png"></div>
+					<div class="tile" id="t15" onclick="check(15)"><img src="ot.png"></div>
+					<div style="clear: both;"></div>
+				</div>
+			</div>
+			<div id="rightBoard">
+				<div id="attempts">
+					Number of attempts: <span id="howmany">0</span>
+				</div><br />
+				<div id="bestattempts">
+					The lowest number of attempts: <span id="howmanybest">0</span>
+				</div><br />
+				<div id="reset" >
+					<a class="aReset" href="index.html">RESET</a>
+				</div>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+	</div>
+	<script type="text/javascript" src="memory.js"></script>
+</body>
+</html>
